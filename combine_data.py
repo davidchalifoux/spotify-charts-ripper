@@ -16,4 +16,4 @@ for filename in os.listdir(directory):
         file_dataframe['date'] = pd.to_datetime(file_dataframe['date'])
         dataframe = pd.concat([dataframe, file_dataframe])
 print("Saving combined file")
-dataframe.to_csv("./spotify_charts_combined.csv")
+dataframe.to_csv("./spotify_charts_combined.csv", index=False)
