@@ -6,8 +6,6 @@ This script downloads the Spotify daily top songs in the USA from Jan 1st 2017 t
 
 _You must have Google Chrome installed. However, you can modify the code to use any major browser you prefer._
 
-The `data` folder contains an already started batch of data files.
-
 # How to use
 
 - Clone the repository
